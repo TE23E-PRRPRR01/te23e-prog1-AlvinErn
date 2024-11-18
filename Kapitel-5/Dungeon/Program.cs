@@ -48,7 +48,7 @@ while (true)
                     else
                     {
                         rum = "köket";
-                        System.Console.WriteLine("Du går in i nästa köket");
+                        System.Console.WriteLine("Du är nu i köket");
                         System.Console.WriteLine("Det står en vårtfylld jätte med förkläde och hugger på en tom skärbräda med en stor köttkniv");
                         System.Console.WriteLine("1. Gå fram till honom och fråga vad fan han gör");
                         System.Console.WriteLine("2. Gå tillbaka till hallen");
@@ -94,7 +94,19 @@ while (true)
         else if (val == "2")
         {
             rum = "köket";
-            System.Console.WriteLine("Du går in i nästa köket");
+            System.Console.WriteLine("Du är nu i köket");
+            System.Console.WriteLine("Det står en vårtfylld jätte med förkläde och hugger på en tom skärbräda med en stor köttkniv");
+            System.Console.WriteLine("1. Gå fram till honom och fråga vad fan han gör");
+            System.Console.WriteLine("2. Gå tillbaka till hallen");
+            string köket = Console.ReadLine();
+            if (köket == "1")
+            {
+                System.Console.WriteLine("Du går fram till jätten");
+            }
+            else
+            {
+                
+            }
         }
     }
     else if (rum == "rum 1")
